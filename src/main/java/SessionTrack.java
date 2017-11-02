@@ -22,7 +22,7 @@ public class SessionTrack extends HttpServlet {
         Date lastAccessTime =
                 new Date(session.getLastAccessedTime());
 
-        String title = "Welcome to the area 51";
+        String title = "winston, tenemos un problema";
         Integer visitCount = new Integer(0);
         String visitCountKey = new String("visitCount");
         String userIDKey = new String("userID");
