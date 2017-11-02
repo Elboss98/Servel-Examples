@@ -1,5 +1,5 @@
 /**
- * @author Xavi Torrens
+ * @author krimo bensaid
  */
 // Import required java libraries
 import java.io.*;
@@ -30,7 +30,7 @@ public class SessionTrack extends HttpServlet {
 
         // Check if this is new comer on your web page.
         if (session.isNew() || session.getAttribute(visitCountKey) == null ){
-            title = "Welcome to my website";
+            title = "Welcome to the jungle";
             session.setAttribute(userIDKey, userID);
         } else {
             visitCount = (Integer)session.getAttribute(visitCountKey);
