@@ -7,7 +7,7 @@ import java.io.PrintWriter;
 import java.util.Enumeration;
 
 /**
- * @author Xavi Torrens
+ * @author YO
  */
 public class CheckParametersServlet extends HttpServlet {
 
